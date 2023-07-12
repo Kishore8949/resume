@@ -1,0 +1,213 @@
+# Profile section
+profile:
+  first_name: Kishore
+  last_name: Sudula
+  picture: https://cdn.glitch.global/4dc30ec8-a1c3-4743-bb16-58d8a7025e7a/kishore.jpg?v=1688812934151  # Hosted picture
+  # picture: static/img/rodo_2021.png  # Local picture
+  contact:
+    address_one: Bangalore, Karnataka
+    address_two:
+    phone: 8179266373
+  email: kishoresudula9@gmail.com
+  description: |
+    I am (currently) a Artificial Engineer at Ignitarium Technology Pvt Ltd. (Bangalore) and I also work as a Consultant with Sony India Software Centre Pvt Ltd.
+    
+    I've worked as a Engineer at Wipro. 
+    
+
+# Social section
+social:
+  website: https://shelled-splashy-coral.glitch.me/
+  github: https://github.com/Kishore8949
+  twitter: https://twitter.com/kishore12867239
+  linkedin: https://www.linkedin.com/in/sudula-kishore-399551152/
+  medium: https://medium.com/@kishoresudula9
+
+
+# Experience section
+experience:
+  item3:
+    position: AI Consultant
+    company: SONY India software Pvt ltd
+    from: June 2022
+    to: Present
+    description: >
+      Working as an AI consultant for SONY. In charge of "3D Model Reconstruction of Objects" using sparse input view images.
+      I have worked on improving Data Corruptions/Perturbations Robustness and Adversarial Robustness of Single Shot Detector(SSD300) Object
+      Detection model. 
+  item2:
+    position: AI Engineer
+    company: Ignitarium Technology Pvt ltd
+    from: May 2022
+    to: Present
+    description: >
+      In charge of building Text Recognition (OCR) with Python. The tech stack used includes Tensorflow, Python, Computer Vision and Deep learning.
+  item1:
+    position: Project Engineer
+    company: Wipro
+    from: October 2019
+    to: May 2022 
+    description: >
+      Developed end-to-end face detection, face recognition, safety gear prediction, mask detection, social distancing detection, text
+      detection and text recognition.
+      
+      Deployed onnx models through onnxruntime inference using FPGA deep learning accelerator.
+      
+      Worked on brief period in NLP. Transformers, Bert, Text pre-processing, sentiment analysis, Item category classification.
+      
+
+
+# Education section
+education:
+  item2:
+    institution: Andhra University college of engineering.
+    program: Bachelor of Technology.
+    from: May 2015
+    to: June 2019
+  item1:
+    institution: Sri Chaitanya Junior College.
+    program: Board of Intermediate Education.
+    description: Majors in Maths, Physics and chemistry.
+    from: May 2015
+    to: June 2013
+
+
+
+# Skills section
+tools:
+  # Consider that the following are fa icons:
+  #   https://fontawesome.com/icons?d=gallery&s=brands
+  - python
+  - github
+  - docker
+  - bitbucket
+  - google
+  - google-drive
+  - slack
+  - linux
+  - raspberry-pi
+extra_skills:
+  - Machine learning and deep learning
+  - Image processing and computer vision
+  - Text processing and Natural language processing
+  - Web scraping and web automation
+  - Several Python packages – TensorFlow, Pytorch, NumPy, matplotlib, Skimage, etc.
+
+
+
+# Projects section
+projects:
+  item0:
+    title: 3D Model Reconstruction
+    subtitle: Reconstructing 3D models using sparse input views
+    description: 3D scene representation of objects given input(N=6) view images.
+    img:  nerf.png
+    tags: [Python, 3D, Deep learning, Computer vision, Pytorch]
+  item1:
+    title: Adversarial Robustness
+    subtitle: Robust Machine learning models to withstand adversarial attacks
+    description: Understand machine learning models and develop techniques to improve their resilience aganist adversarial attacks 
+    img: adversarial_threats_attacker.png
+    tags: [Python, SSD300, Deep learning, Computer vision, Pytorch, Tensorflow2.0]
+  item2:
+    title: AugMix 
+    subtitle: Data Augmentation Strategy
+    description: Enhancing SSD300 model's ability to generalize to unseen data
+    img: augmix.png
+    tags: [Python, Deep learning, Computer vision, Pytorch, Tensorflow2.0]
+  item3:
+    title: Text Recognition and Extraction (OCR)
+    subtitle: Recognition and extraction of text from images or scanned documents
+    description: Data preperation, Image processing, pretrained pytesseract, decoding and post processing for document processing 
+    img: ocr.png
+    tags: [Python, Pytesseract,  Deep learning, Computer vision, Tensorflow2.0]
+  item4:
+    title: Industry Safety gear detection
+    subtitle: Safety gear (jacket, helmet, mask) detection
+    description: Using pretrained models to detect employee safety gear detection in industrial 
+    img: industry_safety.png
+    tags: [Python, Deep learning, Computer vision, Tensorflow2.0]
+  item5:
+    title: Face detection and Recognition
+    subtitle: Recongnising employee face and matching with employee database
+    description: Using pretrained face detection models to match employee identity
+    img: face.png
+    tags: [Python, Deep learning, Computer vision, Tensorflow2.0]
+  item6:
+    title: Facebook friend recommendation
+    subtitle: social network graph link prediction
+    description: Given a directed social graph, have to predict missing links to recommend users
+    github: https://github.com/Kishore8949/Facebook-Friend-Recommendation
+    img: facebook_recommendation.png 
+    tags: [Python, Xgbooost, networkx, sklearn, Data Preprocessing]
+  item7:
+    title: Netflix Movie Recommendation
+    subtitle: Google Colab Notebooks
+    description: Predict the rating that a user would give to a movie that not yet rated..
+    link: https://rodolfoferro.xyz/RIIAA19-DLaaS/
+    github: https://github.com/Kishore8949/Netflix-Movie-Recommendation
+    img: Netflix_movie_recommendation.png
+    tags: [Python, Machine Learning, Sklearn, Data Preprocessing]
+  item8:
+    title: Taxi Demand prediction in New York City
+    subtitle: Google Colab Notebooks
+    description: Taxi Demand Prediction in New York City.
+    link: https://impipes.readthedocs.io/en/latest/
+    github: https://github.com/Kishore8949/Tax-Demand-Prediction-in-New-York-City
+    img: taxi_prediction.png
+    tags: [Python, Xgboost, Data Preprocessing, Sklearn, Dask]
+  item9:
+    title: Engagement score prediction
+    subtitle: Google Colab Notebooks
+    description: Predicting Engagement score of user based on his preferences.
+    link: https://flask-micro-template.glitch.me
+    github: https://github.com/Kishore8949/Engagement-Score-Prediction
+    img: Engagement_prediction.png
+    tags: [Python, Machine Learning, Sklearn, Data Preprocessing]
+  item10:
+    title: Breast cancer prediction
+    subtitle: Google Colab Notebooks
+    description: Predicting the severity of Breast Cancer
+    link: https://flask-micro-template.glitch.me
+    github: https://github.com/Kishore8949/Engagement-Score-Prediction
+    img: breast_cancer.png
+    tags: [Python, Machine Learning, Sklearn, Data Preprocessing]
+
+  
+# Certificates section:
+community:
+  item0:
+    institution: Applied AI 
+    program: Applied Machine Learning Course
+    description: "A Complete Machine learning and Deep learning course for Data science"
+    from: October 2021
+    to: Present
+    link: https://www.appliedaicourse.com/certificate/8733d46312
+  item1:
+    institution: Udemy
+    program: Algorithms and Data Structures in Python
+    program1: MLOps Fundamentals CI/CD/CT Pipelines of ML with Azure
+    program2: 2021 Python for Machine Learning & Data Science Masterclass
+    program3: Dockers and Kubernetes The Complete Guide
+    program4: Microsoft Power BI Desktop for Business Intelligence
+    program5: PyTorch for Deep Learning with Python Bootcamp
+    program6: Python and Django Full Stack Web Developer Bootcamp
+    program7: Recursion, Backtracking and Dynamic Programming in Python
+    program8: Complete Tensorflow 2 and Keras Deep Learning Bootcamp
+    program9: Python for Computer Vision with Open CV and Deep Learning
+    program10: The Complete SQL Bootcamp 2021
+    program11: NLP- Natural Language Processing with Python
+    from: May 2021
+    to:  Present
+    link: https://www.linkedin.com/in/sudula-kishore-399551152/
+  reference:  https://www.linkedin.com/in/sudula-kishore-399551152/
+
+# Awards section
+awards:
+  - Spot Award – Sony software India Pvt Ltd 2023
+  - Coaching champ Award – Ignitarium Technology Pvt Ltd 2023
+  - HI5 champ Award – Ignitarium Technology Pvt Ltd 2022
+  - Round of Applause - Wipro Pvt Ltd 2022
+  - Round of Applause - Wipro Pvt Ltd 2021
+  - Inspiring Performance Award - Wipro Pvt Ltd 2021 
+  - Achieved Gold Badge for Python ,C and C++ in Hackerrank
